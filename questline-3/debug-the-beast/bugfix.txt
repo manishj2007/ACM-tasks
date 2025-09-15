@@ -1,0 +1,8 @@
+The old code had two problems:
+1. It started with -9999999 which is not safe if numbers are smaller.
+2. It could give wrong answer when the largest number is repeated.
+
+My fix:
+- I used set() to remove duplicates.
+- Then I sorted the list and picked the second last element as the answer.
+- This way it is simple and works for all cases.
