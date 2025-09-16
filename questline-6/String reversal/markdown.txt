@@ -1,0 +1,12 @@
+We implemented string reversal in two ways:
+
+1. Iterative method  
+   - Start from the end of the string.  
+   - Moves each character to a new string until the start is reached.  
+
+2. Recursive method
+   - Base case: if the string is empty, return it.  
+   - Otherwise, take the last character and add it to the reverse of the substring (everything except the last character).  
+
+Both methods return the reversed string.
+

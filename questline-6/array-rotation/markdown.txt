@@ -1,0 +1,8 @@
+Problem: Rotate an array to the right by k steps.
+
+Idea:
+- Make a new array of the same size.
+- For each index i, move nums[i] to new[(i + k) % n].
+- Copy new[] back to nums[] (or just print new[]).
+
+
