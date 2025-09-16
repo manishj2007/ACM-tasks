@@ -1,0 +1,22 @@
+Manual Caesar Cipher
+
+Encoding "RECRUIT" with shift +3:
+R - U
+E - H
+C - F
+R - U
+U - X
+I - L
+T -- W
+Result: UHFXXLW
+
+Decoding "ZHOFRPH" with shift -3:
+Z - W
+H - E
+O - L
+F - C
+R - O
+P - M
+H - E
+Result: WELCOME
+
